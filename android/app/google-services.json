@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1025849988380",
+    "project_id": "for-lbm",
+    "storage_bucket": "for-lbm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025849988380:android:196c13f676c882b36c56d9",
+        "android_client_info": {
+          "package_name": "com.example.library_management"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1025849988380-8htmfjlv6l4t29kkm889he4r8e2lf05a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANAezc7xCD8QD78weIKf9aac43K8hF4P0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1025849988380-8htmfjlv6l4t29kkm889he4r8e2lf05a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
