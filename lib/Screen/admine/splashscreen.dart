@@ -2,7 +2,7 @@
 
 import 'dart:async';
 
-import 'package:auth/auth.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:library_management/Screen/MainPage/manageRoute.dart';
 import 'package:library_management/login_sevices/selction_screen.dart';
@@ -79,7 +79,7 @@ class _splashscreenState extends State<splashscreen> {
                 Positioned(
                   top: 0,
                   child: Image.asset(
-                    "images/library (3).png",
+                    "asset/images/SplashIMG.png",
                     width: 150,
                     height: 150,
                   ),
@@ -87,7 +87,8 @@ class _splashscreenState extends State<splashscreen> {
                 const Text(
                   "My Library ",
                   style: TextStyle(
-                    fontSize: 16.0,
+                    fontWeight: FontWeight.bold,
+                    fontSize: 40.0,
                     color: Color(0xFF753737),
                     // fontFamily: "Satisfy",
                   ),

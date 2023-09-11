@@ -38,16 +38,16 @@ class _AdminLoginServiceState extends State<AdminLoginService> {
               mainAxisAlignment: MainAxisAlignment.end,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                Container(
-                  margin: const EdgeInsets.only(top: 40),
-                  width: MediaQuery.of(context).size.width * 1,
-                  height: MediaQuery.of(context).size.height * 0.3,
-                  decoration: const BoxDecoration(
-                      image: DecorationImage(
-                    image: AssetImage("images/1.png"),
-                    fit: BoxFit.fill,
-                  )),
-                ),
+                // Container(
+                //   margin: const EdgeInsets.only(top: 40),
+                //   width: MediaQuery.of(context).size.width * 1,
+                //   height: MediaQuery.of(context).size.height * 0.3,
+                //   decoration: const BoxDecoration(
+                //       image: DecorationImage(
+                //     image: AssetImage("images/1.png"),
+                //     fit: BoxFit.fill,
+                //   )),
+                // ),
                 const SizedBox(
                   height: 40,
                 ),
